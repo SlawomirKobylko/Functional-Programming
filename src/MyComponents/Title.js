@@ -1,5 +1,5 @@
 import React from 'react';
-import mercedesImage from './mercedes.jpg';
+import ChuckImage from './Chuck_Norris.jpg';
 
 const WitamyNaStronie = () => {
   const styles = {
@@ -28,7 +28,7 @@ const WitamyNaStronie = () => {
   return (
     <div style={styles.witamyNaStronie}>
       <h1 style={styles.tytul}>Witamy na stronie</h1>
-      <img style={styles.zdjecie} src={mercedesImage} alt="Mercedes" />
+      <img style={styles.zdjecie} src={ChuckImage} alt="Mercedes" />
     </div>
   );
 };
