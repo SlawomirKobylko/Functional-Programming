@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Login from './MyComponents/Login';
 import Title from './MyComponents/Title';
-import Show from './MyComponents/Show';
+import Delete from './MyComponents/Delete';
 import Time from './MyComponents/Time';
 import ChuckNorrisJoke from './MyComponents/ChuckNorrisJoke';
 
@@ -21,7 +21,7 @@ function App() {
         <Login onLoginSuccess={handleLoginSuccess} />
       ) : (
         <>
-          <Show />
+          <Delete />
           <ChuckNorrisJoke />
         </>
       )}

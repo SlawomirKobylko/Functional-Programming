@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Show from './Show';
+import Delete from './Delete';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -61,7 +61,7 @@ const Login = () => {
           {loginMessage}
         </p>
       </form>
-      {isLoggedIn && <Show />} {/* Wyświetlanie przycisku tylko po zalogowaniu */}
+      {isLoggedIn && <Delete />} {/* Wyświetlanie przycisku tylko po zalogowaniu */}
     </div>
   );
 };

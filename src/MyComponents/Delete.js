@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AddButton from './AddButton';
 import ChuckNorrisJoke from './ChuckNorrisJoke';
 
-const Show = () => {
+const Delete = () => {
   const [carList, setCarList] = useState([]);
 
   const handleAddCar = (car) => {
@@ -27,4 +27,4 @@ const Show = () => {
   );
 };
 
-export default Show;
+export default Delete;
